@@ -25,7 +25,8 @@ Program to implement the Decision Tree Classifier Model for Predicting Employee 
 Developed by : ISTIN B
 RegisterNumber:  212223040068
 */
-```
+
+
 import pandas as pd
 data=pd.read_csv("Employee.csv")
 
@@ -61,7 +62,7 @@ accuracy = metrics.accuracy_score(y_test,y_pred)
 print(accuracy)
 
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
-```
+
 ~~~
 ## Output:
 # DATASET
